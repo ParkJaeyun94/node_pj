@@ -1,7 +1,12 @@
 {
   "scripts": {
     "test": "echo \"Hello world!\"",
-    "build": "esbuild practice/transpile.js --bundle --outfile=build/transpile.js --target=node12.18.3"
+    "build": "esbuild chap0304/transpile.js --bundle --outfile=build/transpile.js --target=node12.18.3",
+    "server": "nodemon src/nodejs.js"
+  },
+
+  "engines": {
+    "node": "v15.14.0"
   },
   "devDependencies": {
     "@types/node": "^16.4.10",
@@ -17,6 +22,7 @@
   },
   "dependencies": {
     "esbuild": "^0.12.18",
-    "httpie": "^1.1.2"
+    "httpie": "^1.1.2",
+    "nodemon": "^2.0.12"
   }
 }
