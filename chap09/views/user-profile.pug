@@ -1,7 +1,13 @@
 html
     head
-        link(rel='stylesheet' href='/index.css')
+        link(rel="stylesheet" href="/public/index.css")
     body
-        h1 User profile page
-        h2.gold Nickname
-        div.green.big = nickname
+      h1 User profile page
+      h2 Nickname
+      div= nickname
+
+      h2 Profile
+      img(src=profileImageURL).profileImage
+      form(action=`/users/${userId}/profile` method="post" enctype="multipart/form-data")
+          input(type="file" name="profile")
+          button Upload Profile Picture

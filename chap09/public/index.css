@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: wheat;
 }
 
 .gold {
@@ -12,4 +12,8 @@ body {
 
 .big {
     font-size: 24px;
+}
+
+.profileImage {
+    width: 300px;
 }
