@@ -3,6 +3,7 @@
     "strict": true
   },
   "include": [
-    "src/**/*"
-  ]
+    "chap06/**/*"
+  ],
+  "tailwindCSS.emmetCompletions": true
 }
