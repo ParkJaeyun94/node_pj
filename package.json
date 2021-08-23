@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",
+    "commander": "^8.1.0",
+    "dotenv": "^10.0.0",
     "esbuild": "^0.12.18",
     "image-size": "^1.0.0",
     "koa": "^2.13.1",
@@ -33,6 +35,7 @@
     "koa-websocket": "^6.0.0",
     "mongodb": "^4.1.0",
     "node-fetch": "^2.6.1",
+    "octokit": "^1.4.0",
     "path": "^0.12.7",
     "postcss": "^8.3.6",
     "sharp": "^0.29.0",
